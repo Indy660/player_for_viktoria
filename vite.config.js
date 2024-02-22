@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
-// const base = '/player_with_my_favorite_music'
+// const base = '/player_for_viktoria'
 export default defineConfig({
   plugins: [vue()],
   resolve: {
@@ -18,7 +18,7 @@ export default defineConfig({
   },
   base:
     process.env.NODE_ENV === "production"
-      ? "/player_with_my_favorite_music/"
+      ? "/player_for_viktoria/"
       : "/",
   // TODO: не работает вообще
   // base: process.env.VITE_BASE_URL,

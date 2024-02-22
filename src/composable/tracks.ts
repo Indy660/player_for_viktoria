@@ -32,7 +32,7 @@ export function tracksApi() {
     // const basePath = import.meta.env.DEV ? '/' : BASE_URL
     // const basePath = import.meta.env.DEV ? '' : BASE_URL
     // console.log('basePath', basePath, process.env.NODE_ENV, BASE_URL)
-    const basePath = import.meta.env.DEV ? '/' : '/player_with_my_favorite_music/'
+    const basePath = import.meta.env.DEV ? '/' : '/player_for_viktoria/'
     return currentTracks.value[currentTrackIndex.value]
       ? `${basePath}music/${currentTracks.value[currentTrackIndex.value]}`
       : ``
@@ -63,12 +63,14 @@ export function tracksApi() {
   // Метод для обновления значений по URL
   const updateValuesFromUrl = () => {
     const queryParts = window.location.pathname.split('&')
-    const tabUrl = queryParts[0].split('=')[1]
-    const trackIndex = parseInt(queryParts[1].split('=')[1])
-    const selectedTab = tabsOption.find((tab) => tab.url === tabUrl)
-    if (selectedTab) {
-      tabSelected.value = selectedTab.id
-      currentTrackIndex.value = !isNaN(trackIndex) ? trackIndex : 0
+    if (queryParts.length === 2) {
+      const tabUrl = queryParts[0].split('=')[1]
+      const trackIndex = parseInt(queryParts[1].split('=')[1])
+      const selectedTab = tabsOption.find((tab) => tab.url === tabUrl)
+      if (selectedTab) {
+        tabSelected.value = selectedTab.id
+        currentTrackIndex.value = !isNaN(trackIndex) ? trackIndex : 0
+      }
     }
   }
   updateValuesFromUrl()
