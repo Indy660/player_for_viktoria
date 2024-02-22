@@ -6,8 +6,7 @@ const MUSIC_LIST = [
     songName: 'Adele - Rolling in the Deep.mp3'
   },
   {
-    songName:
-      'Antonio Vivaldi-Concerto In F Minor for Violin- String Orchestra and Continuo- Op. 8- No. 4- RV 297- -L-inverno- -Winter - . Allegro non molto.mp3'
+    songName: 'Antonio Vivaldi- Op. 8- No. 4- RV 297- -L-inverno Winter - Allegro non molto.mp3'
   },
   {
     songName: 'Frank Sinatra - Fly Me To The Moon.mp3'
@@ -25,8 +24,7 @@ const MUSIC_LIST = [
     songName: 'Frank Sinatra-The World We Knew -Over And Over - .mp3'
   },
   {
-    songName:
-      'Gidon Kremer- Christoph Eschenbach- Chamber Orchestra of Europe-Schnittke- Violin Concerto No. 3 -  III. Andante.mp3'
+    songName: 'Gidon Kremer-Christoph Eschenbach-Violin Concerto No. 3 - III.Andante.mp3'
   },
   {
     songName: 'Ilya Beshevli - Battlefield.mp3'
@@ -51,7 +49,7 @@ const MUSIC_LIST = [
   },
   {
     songName:
-      'Mstislav Rostropovich-Bach- J.S.- Cello Suite No. 1 in G Major- BWV 1007 -  I. Prelude.mp3'
+      'Mstislav Rostropovich-Bach-J.S.-Cello Suite No. 1 in G Major-BWV 1007 - I. Prelude.mp3'
   },
   {
     songName: 'Muse - New Born.mp3'
@@ -129,7 +127,7 @@ const MUSIC_LIST = [
     songName: 'БИ-2- Oxxxymiron - Пора возвращаться домой.mp3'
   },
   {
-    songName: 'Би-2-Вечная призрачная встречная -из фильма «О чём говорят мужчины» - .mp3'
+    songName: 'Би-2 - Вечная призрачная встречная.mp3'
   },
   {
     songName: 'Борис Гребенщиков - Если бы не ты.mp3'
@@ -141,8 +139,7 @@ const MUSIC_LIST = [
     songName: 'ДДТ - Метель.mp3'
   },
   {
-    songName:
-      'Евгений Светланов- Государственный академический симфонический оркестр СССР-Сюита из балета -Щелкунчик- -1892-- Харизматические танцы- соч. 71-a -  Танец феи Драже.mp3'
+    songName: 'Евгений Светланов-ГАСО СССР(Щелкунчик-1892) - Танец феи Драже.mp3'
   },
   {
     songName: 'Земфира - ГОРА.mp3'
