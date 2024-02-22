@@ -1,245 +1,248 @@
 const MUSIC_LIST = [
   {
-    songName: '1.5 кг Отличного Пюре - Эмо.mp3',
-    sort: 181,
-    bestParties: [{ start: 25, end: 84 }],
-    notAggressive: true
-  },
-  { songName: 'Angel Vivaldi - A Martian Winter.mp3' },
-  {
-    songName: 'Angel Vivaldi - An Erisian Autumn.mp3',
-    sort: 50,
-    bestParties: [
-      { start: 78, end: 104 },
-      { start: 246, end: 268 }
-    ],
-    notAggressive: true
-  },
-  { songName: 'As I Lay Dying - Forever.mp3', sort: 210, bestParties: [{ start: 0, end: 25 }] },
-  {
-    songName: 'As I Lay Dying - Nothing Left [2007].mp3',
-    sort: 40,
-    bestParties: [{ start: 0, end: 57 }]
+    songName: 'ABBA - Mamma Mia.mp3'
   },
   {
-    songName: 'As I Lay Dying - The Sound Оf Truth.mp3',
-    sort: 60,
-    bestParties: [
-      { start: 0, end: 36 },
-      { start: 59, end: 121 }
-    ]
-  },
-  { songName: 'Aspirin Rose - Fucking Perfect (Pink cover).mp3' },
-  {
-    songName: 'August Burns Red - A Shot Below The Belt.mp3',
-    sort: 142,
-    bestParties: [
-      { start: 0, end: 30 },
-      { start: 90, end: 114 },
-      { start: 164, end: 175 }
-    ]
+    songName: 'Adele - Rolling in the Deep.mp3'
   },
   {
-    songName: 'August Burns Red - Barbarian.mp3',
-    sort: 20,
-    bestParties: [
-      { start: 21, end: 32 },
-      { start: 70, end: 88 },
-      { start: 113, end: 152 }
-    ]
-  },
-  { songName: 'August Burns Red - Consumer.mp3' },
-  {
-    songName: 'August Burns Red - Indonesia.mp3',
-    sort: 141,
-    bestParties: [
-      { start: 84, end: 117 },
-      { start: 161, end: 180 }
-    ]
-  },
-  { songName: 'August Burns Red - Meridian.mp3', notAggressive: true },
-  { songName: 'August Burns Red - Truth of a Liar.mp3' },
-  {
-    songName: 'August Burns Red - Your Little Suburbia Is in Ruins.mp3',
-    sort: 70,
-    bestParties: [
-      { start: 12, end: 27 },
-      { start: 107, end: 125 },
-      { start: 146, end: 178 }
-    ]
-  },
-  { songName: 'Anaal Nathrakh - Between Shit and Piss We Are Born.mp3' },
-  {
-    songName: 'Anaal Nathrakh - In The Constellation Of The Black Widow.mp3',
-    sort: 220,
-    bestParties: [
-      { start: 65, end: 85 },
-      { start: 114, end: 141 }
-    ]
-  },
-  { songName: 'Between the Buried and Me - All Bodies.mp3' },
-  {
-    songName: 'Between The Buried And Me - Ants Of The Sky.mp3',
-    sort: 113,
-    bestParties: [{ start: 0, end: 108 }]
-  },
-  { songName: 'Between The Buried And Me - Sun Of Nothing.mp3' },
-  {
-    songName: 'Between The Buried And Me - Swim To The Moon.mp3',
-    sort: 10,
-    bestParties: [
-      { start: 135, end: 160 },
-      { start: 500, end: 551 },
-      { start: 982, end: 1022 }
-    ]
-  },
-  { songName: 'Breakwater - Eleven.mp3' },
-  { songName: 'Breakwater - five.mp3' },
-  { songName: 'Bullet For My Valentine - Hand Of Blood.mp3' },
-  {
-    songName: 'Cerebral Bore - The Bald Cadaver.mp3',
-    sort: 280,
-    // TODO: не работает bestParties
-    bestParties: [{ start: 5.5, end: 50 }]
+    songName:
+      'Antonio Vivaldi-Concerto In F Minor for Violin- String Orchestra and Continuo- Op. 8- No. 4- RV 297- -L-inverno- -Winter - . Allegro non molto.mp3'
   },
   {
-    songName: 'Children Of Bodom - Are You Dead Yet.mp3',
-    sort: 110,
-    bestParties: [{ start: 82, end: 114 }]
-  },
-  { songName: 'Cosmonauts Day - The Captain.mp3', notAggressive: true },
-  { songName: 'Death In Vegas - Dirge.mp3' },
-  {
-    songName: 'Dragonforce - The Flame of Youth.mp3',
-    sort: 120,
-    bestParties: [
-      { start: 46, end: 65 },
-      { start: 289, end: 317 }
-    ]
-  },
-  { songName: 'If These Trees Could Talk - From Roots to Needles.mp3', notAggressive: true },
-  { songName: 'In Flames - Clayman.mp3', sort: 130, bestParties: [{ start: 0, end: 21 }] },
-  { songName: 'In Flames - Reflect the Storm.mp3' },
-  { songName: 'Killing Floor - Abandon All.mp3' },
-  { songName: 'Killing Floor OST - Wake.mp3', notAggressive: true },
-  { songName: 'Long Distance Calling - Black Paper Planes.mp3', notAggressive: true },
-  { songName: 'Machine Head - Beautiful Mourning.mp3' },
-  { songName: 'Machine Head - Hallowed Be Thy Name.mp3' },
-  { songName: 'Machine Head - Halo.mp3' },
-  {
-    songName: 'Ozoi The Maid - Unfortunately.mp3',
-    sort: 112,
-    bestParties: [
-      { start: 59, end: 84 },
-      { start: 165, end: 218 },
-      { start: 240, end: 253 }
-    ]
+    songName: 'Frank Sinatra - Fly Me To The Moon.mp3'
   },
   {
-    songName: 'Ozoi The Maid Yakui The Maid - Lanterns.mp3',
-    sort: 111,
-    bestParties: [{ start: 146, end: 218 }]
+    songName: 'Frank Sinatra - Let It Snow.mp3'
   },
   {
-    songName: 'Ozoi The Maid Yakui The Maid - Wonderland.mp3',
-    sort: 30,
-    bestParties: [
-      { start: 115, end: 243 },
-      { start: 355, end: 442 }
-    ]
-  },
-  { songName: 'Ozoi The Maid, Yakui The Maid - Frontier.mp3' },
-  { songName: 'Psygnosis - FIIIX 2.0.mp3' },
-  {
-    songName: 'Psygnosis - Lost in Oblivion.mp3',
-    sort: 140,
-    bestParties: [{ start: 292, end: 356 }]
-  },
-  { songName: 'Psygnosis - MehMeh.mp3' },
-  { songName: 'Psygnosis - Phrase 7.mp3', notAggressive: true },
-  { songName: 'Psygnosis - Synaptic Plasticity.mp3' },
-  { songName: 'Psygnosis - The Judgement.mp3' },
-  { songName: 'Raunchy - To the Lighthouse.mp3' },
-  { songName: 'Raunchy - Twelve Feet Tall.mp3', sort: 150, bestParties: [{ start: 65, end: 96 }] },
-  {
-    songName: 'Raunchy - Wasteland Discotheque.mp3',
-    sort: 190,
-    bestParties: [
-      { start: 0, end: 34 },
-      { start: 63, end: 101 }
-    ]
-  },
-  { songName: 'Rhapsody - The Mighty Ride of the Firelord.mp3' },
-  { songName: 'Rhapsody of Fire - Wisdom of the Kings.mp3' },
-  { songName: 'Rise Of The Northstar - The New Path.mp3' },
-  {
-    songName: 'Rise Of The Northstar - What The Fuck.mp3',
-    sort: 160,
-    bestParties: [{ start: 45, end: 79 }]
+    songName: 'Frank Sinatra - My Way.mp3'
   },
   {
-    songName: 'Siberian Meat Grinder feat Distemper - Пламя в Груди.mp3',
-    sort: 211,
-    bestParties: [{ start: 49, end: 68 }]
-  },
-  { songName: 'The Doors - Alabama song.mp3', notAggressive: true },
-  { songName: 'The Doors - The End.mp3', notAggressive: true },
-  { songName: 'The Faceless - Shake The Disease.mp3' },
-  { songName: 'The Five Stars - Atom Bomb Baby.mp3', notAggressive: true },
-  { songName: 'The HAARP Machine - Esoteric Agenda.mp3' },
-  {
-    songName: 'Toundra - Bizancio Byzantium.mp3',
-    sort: 180,
-    bestParties: [
-      { start: 127, end: 224 },
-      { start: 406, end: 480 }
-    ],
-    notAggressive: true
-  },
-  { songName: 'URO & .corridoiokraut. - Nappi.mp3', notAggressive: true },
-  { songName: 'What Mad Universe - Colossus.mp3', notAggressive: true },
-  {
-    songName: 'What Mad Universe - the world of leviathan.mp3',
-    notAggressive: true
+    songName: 'Frank Sinatra - Strangers In The Night.mp3'
   },
   {
-    songName: 'What Mad Universe - head of column.mp3',
-    sort: 170,
-    bestParties: [{ start: 30, end: 65 }],
-    notAggressive: true
-  },
-  { songName: 'What Mad Universe - mythical sacred firebird.mp3', notAggressive: true },
-  {
-    songName: 'What Mad Universe - Nebula My Love.mp3',
-    sort: 80,
-    bestParties: [
-      { start: 162, end: 246 },
-      { start: 260, end: 358 }
-    ],
-    notAggressive: true
+    songName: 'Frank Sinatra-The World We Knew -Over And Over - .mp3'
   },
   {
-    songName: 'What Mad Universe - Starborne.mp3',
-    sort: 90,
-    bestParties: [
-      { start: 85, end: 105 },
-      { start: 144, end: 185 }
-    ],
-    notAggressive: true
+    songName:
+      'Gidon Kremer- Christoph Eschenbach- Chamber Orchestra of Europe-Schnittke- Violin Concerto No. 3 -  III. Andante.mp3'
   },
-  { songName: 'Within The Ruins - Ataxia II.mp3' },
-  { songName: 'Within The Ruins - Beautiful Agony.mp3' },
-  { songName: 'ZEROMANCER - Dr. Online.mp3' },
   {
-    songName: 'zYnthetic - Abandon All v3.mp3',
-    sort: 100,
-    bestParties: [
-      { start: 0, end: 30 },
-      { start: 60, end: 89 }
-    ],
-    notAggressive: true
+    songName: 'Ilya Beshevli - Battlefield.mp3'
   },
-  { songName: 'zYnthetic - SSplug.mp3' }
+  {
+    songName: 'Ilya Beshevli - Beautiful Image.mp3'
+  },
+  {
+    songName: 'Ilya Beshevli - City at Night.mp3'
+  },
+  {
+    songName: 'Ilya Beshevli - Snow Waltz.mp3'
+  },
+  {
+    songName: 'Ilya Beshevli - Tears of a Tiger.mp3'
+  },
+  {
+    songName: 'Ilya Beshevli - Travel on the Wind.mp3'
+  },
+  {
+    songName: 'Imagine Dragons feat. Lil Wayne - Believer.mp3'
+  },
+  {
+    songName:
+      'Mstislav Rostropovich-Bach- J.S.- Cello Suite No. 1 in G Major- BWV 1007 -  I. Prelude.mp3'
+  },
+  {
+    songName: 'Muse - New Born.mp3'
+  },
+  {
+    songName: 'Muse - Plug in Baby.mp3'
+  },
+  {
+    songName: 'Muse - Resistance.mp3'
+  },
+  {
+    songName: 'Muse - Supermassive Black Hole.mp3'
+  },
+  {
+    songName: 'Muse - Uprising.mp3'
+  },
+  {
+    songName: 'Muse-Exogenesis- Symphony Pt. 1 -Overture - .mp3'
+  },
+  {
+    songName: 'Muse-Exogenesis- Symphony Pt. 2 -Cross-pollination - .mp3'
+  },
+  {
+    songName: 'Muse-Exogenesis- Symphony Pt. 3 -Redemption - .mp3'
+  },
+  {
+    songName: 'Muse-I Belong to You --Mon Coeur S-Ouvre a Ta Voix - .mp3'
+  },
+  {
+    songName: 'Oxxxymiron - Башня из слоновой кости.mp3'
+  },
+  {
+    songName: 'Oxxxymiron - Город под подошвой (1).mp3'
+  },
+  {
+    songName: 'Oxxxymiron - Переплетено.mp3'
+  },
+  {
+    songName: 'Queen - Bohemian Rhapsody.mp3'
+  },
+  {
+    songName: 'Queen - I Want To Break Free.mp3'
+  },
+  {
+    songName: 'Queen - The Show Must Go On.mp3'
+  },
+  {
+    songName: 'Queen - We Are the Champions.mp3'
+  },
+  {
+    songName: 'Radiohead - A Reminder.mp3'
+  },
+  {
+    songName: 'Radiohead - Airbag.mp3'
+  },
+  {
+    songName: 'Radiohead - Electioneering.mp3'
+  },
+  {
+    songName: 'Radiohead - Karma Police.mp3'
+  },
+  {
+    songName: 'Radiohead - Subterranean Homesick Alien.mp3'
+  },
+  {
+    songName: 'Radiohead-Exit Music -For A Film - .mp3'
+  },
+  {
+    songName: 'The Beatles - Let It Be.mp3'
+  },
+  {
+    songName: 'The Beatles-All My Loving -2009 Mono Remaster - .mp3'
+  },
+  {
+    songName: 'БИ-2- Oxxxymiron - Пора возвращаться домой.mp3'
+  },
+  {
+    songName: 'Би-2-Вечная призрачная встречная -из фильма «О чём говорят мужчины» - .mp3'
+  },
+  {
+    songName: 'Борис Гребенщиков - Если бы не ты.mp3'
+  },
+  {
+    songName: 'Глюк-oZa - Снег идет.mp3'
+  },
+  {
+    songName: 'ДДТ - Метель.mp3'
+  },
+  {
+    songName:
+      'Евгений Светланов- Государственный академический симфонический оркестр СССР-Сюита из балета -Щелкунчик- -1892-- Харизматические танцы- соч. 71-a -  Танец феи Драже.mp3'
+  },
+  {
+    songName: 'Земфира - ГОРА.mp3'
+  },
+  {
+    songName: 'Земфира - ДОКАЗАНО.mp3'
+  },
+  {
+    songName: 'Земфира-ЛЮБОВЬ КАК СЛУЧАЙНАЯ СМЕРТЬ -LIVE - .mp3'
+  },
+  {
+    songName: 'Зоя Ященко - Белая гвардия.mp3'
+  },
+  {
+    songName: 'Зоя Ященко и группа -Белая гвардия- - Кофейни.mp3'
+  },
+  {
+    songName: 'Зоя Ященко и группа -Белая гвардия- - Питер.mp3'
+  },
+  {
+    songName: 'Кино - Группа крови.mp3'
+  },
+  {
+    songName: 'Кино - Кончится лето.mp3'
+  },
+  {
+    songName: 'Кино - Кукушка.mp3'
+  },
+  {
+    songName: 'Кино - Спокойная ночь.mp3'
+  },
+  {
+    songName: 'Кино-Закрой за мной дверь -  я ухожу.mp3'
+  },
+  {
+    songName: 'Корни-25 - й этаж (1).mp3'
+  },
+  {
+    songName: 'Корни-25 - й этаж.mp3'
+  },
+  {
+    songName: 'Корни-Хочешь -  я тебе спою.mp3'
+  },
+  {
+    songName: 'Король и Шут - Проклятый старый дом.mp3'
+  },
+  {
+    songName: 'Машина Времени - Костер.mp3'
+  },
+  {
+    songName: 'Машина Времени - Однажды Мир Прогнется под Нас.mp3'
+  },
+  {
+    songName: 'Машина Времени - Он был старше её.mp3'
+  },
+  {
+    songName: 'Машина Времени-Она Идет по Жизни -  Смеясь.mp3'
+  },
+  {
+    songName: 'Наутилус Помпилиус - Дыхание.mp3'
+  },
+  {
+    songName: 'Наутилус Помпилиус - Крылья.mp3'
+  },
+  {
+    songName: 'Наутилус Помпилиус - Скованные одной цепью.mp3'
+  },
+  {
+    songName: 'Наутилус Помпилиус - Черные птицы.mp3'
+  },
+  {
+    songName: 'Наутилус Помпилиус - Я хочу быть с тобой.mp3'
+  },
+  {
+    songName: 'П.И. Чайковский-Балет «Щелкунчик» -  Танец феи Драже.mp3'
+  },
+  {
+    songName: 'П.И.Чайковский - Вальс цветов из балета «Щелкунчик» .mp3'
+  },
+  {
+    songName: 'Порнофильмы - Дядя Володя.mp3'
+  },
+  {
+    songName: 'Порнофильмы - Прости. Прощай. Привет.mp3'
+  },
+  {
+    songName: 'Порнофильмы - Я так соскучился.mp3'
+  },
+  {
+    songName: 'Сергей Воронов feat. Борис Гребенщиков- Детский Хор ВГТРК - Поезд в огне.mp3'
+  },
+  {
+    songName: 'ЧАЙФ - 17 лет.mp3'
+  },
+  {
+    songName: 'Чичерина-Ту-лу - ла.mp3'
+  },
+  {
+    songName: 'Юрий Шевчук- ДДТ - Просвистела.mp3'
+  }
 ]
 
 export { MUSIC_LIST }
