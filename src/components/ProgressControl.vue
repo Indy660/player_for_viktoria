@@ -27,6 +27,10 @@ export default defineComponent({
       return formatTime(props.currentTime)
     })
 
+    const convertCurrentTimeSeconds: ComputedRef<string> = computed(() => {
+      return formatTimeSeconds(props.currentTime)
+    })
+
     const convertTotalTime: ComputedRef<string> = computed(() => {
       return formatTime(props.totalTime)
     })
@@ -43,6 +47,10 @@ export default defineComponent({
       const minutes: number = Math.floor(timeInSeconds / 60)
       const seconds: number = Math.floor(timeInSeconds % 60)
       return `${minutes}:${String(seconds).padStart(2, '0')}`
+    }
+
+    function formatTimeSeconds(timeInSeconds: number): string {
+      return `${timeInSeconds.toFixed(2)}`
     }
 
     function timeHandlerEmit(e) {
@@ -64,7 +72,8 @@ export default defineComponent({
       convertTotalTime,
       timeHandler,
       timeHandlerEmit,
-      convertBestPartiesInPercentage
+      convertBestPartiesInPercentage,
+      convertCurrentTimeSeconds
     }
   }
 })
@@ -83,6 +92,7 @@ export default defineComponent({
     />
     <div class="time-display">
       <span id="currentTime">{{ convertCurrentTime }}</span>
+      <span>{{ convertCurrentTimeSeconds }}</span>
       <span id="totalTime">{{ convertTotalTime }}</span>
     </div>
     <template v-if="bestParties.length">
