@@ -74,13 +74,13 @@ export function tracksApi() {
     // }
   }
   updateValuesFromUrl()
-  watchEffect(() => {
-    const currentTab = tabsOption.find((tab) => tab.id === tabSelected.value)
-    const tabUrl = currentTab ? currentTab.url : ''
-    const trackUrl = currentTrackIndex.value.toString()
-    const params = new URLSearchParams(`tab=${tabUrl}&track=${trackUrl}`)
-    window.history.pushState({}, '', params)
-  })
+  // watchEffect(() => {
+  //   const currentTab = tabsOption.find((tab) => tab.id === tabSelected.value)
+  //   const tabUrl = currentTab ? currentTab.url : ''
+  //   const trackUrl = currentTrackIndex.value.toString()
+  //   const params = new URLSearchParams(`tab=${tabUrl}&track=${trackUrl}`)
+  //   window.history.pushState({}, '', params)
+  // })
 
   const tracksByTab: ComputedRef<string[]> = computed(() => {
     switch (tabSelected.value) {
